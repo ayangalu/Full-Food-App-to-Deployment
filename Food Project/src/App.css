@@ -1,0 +1,88 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.card-box {
+    box-shadow: rgba(254, 182, 80, 0.4) 0px 8px 24px;
+}
+.food-abs {
+    position: absolute;
+    top: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mg-bottom {
+    margin-bottom: 2rem;
+}
+.smallFont {
+    font-size: 0.6rem;
+}
+.food-img {
+    width: 7rem;
+    position: absolute;
+}
+.food-image1 {
+    bottom: 0;
+    left: 0;
+}
+.food-image2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 6rem;
+}
+.food-items-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-item {
+    flex-basis: 24%;
+    display: flex;
+    margin: 0.2rem;
+    flex-direction: column;
+}
+.bg__image {
+    background: url(./Img/fresh-colourful-ingredients-mexican-cuisine.jpg), radial-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
+.b__shadow {
+    background: #EAE8E9;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.b__shadow__foodImg {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+}
+.small__font {
+    font-size: 0.8rem;
+}
+.korean__shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.search__shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.home__bg {
+    background-image: url(./Img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 120% -5%;
+}
+@media screen and (max-width: 976px) {
+    .home__bg {
+        background-position: 90% -35%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home__bg {
+        background-position:120% -27%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .home__bg {
+        background-position:120% -20%;
+    }
+}
